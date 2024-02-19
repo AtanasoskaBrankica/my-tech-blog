@@ -6,13 +6,13 @@
   max-width: 50rem;
   padding: var(--size-4);
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
-  font-size: var(--size-6);
+  font-size: var(--size-5);
 }
 
 .contact h1 {
   font-size: var(--size-8);
   margin: var(--size-4) 0;
-  text-align: left;
+  text-align: center;
 }
 
 .form label {
@@ -63,11 +63,4 @@
 .form button:hover {
   background-color: var(--color-primary-500);
   border-color: var(--color-primary-500);
-}
-
-@media (min-width: 768px) {
-  .contact h1 {
-    font-size: var(--size-16);
-    text-align: center;
-  }
 }

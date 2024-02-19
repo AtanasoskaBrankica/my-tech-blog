@@ -25,11 +25,9 @@ export function getPostData(postIdentifier) {
 
 export function getAllPosts() {
   const postFiles = getPostsFiles();
-
   const allPosts = postFiles.map(postFile => {
     return getPostData(postFile);
   });
-
   const sortedPosts = allPosts.sort((postA, postB) =>
     postA.data > postB ? -1 : 1
   );
@@ -39,7 +37,6 @@ export function getAllPosts() {
 
 export function getFeaturedPosts() {
   const allPosts = getAllPosts();
-
   const featuredPosts = allPosts.filter(post => post.isFeatured);
 
   return featuredPosts;

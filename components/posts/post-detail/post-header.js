@@ -11,4 +11,5 @@ function PostHeader(props) {
     </header>
   );
 }
+
 export default PostHeader;
