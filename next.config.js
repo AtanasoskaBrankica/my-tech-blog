@@ -5,7 +5,7 @@ module.exports = phase => {
     return {
       env: {
         mongodb_username: 'atanasoskabrankica1',
-        mongodb_password: 'eIZfBYIhZvljS0IX',
+        mongodb_password: 'kEv4a6e9oxR3dZEu',
         mongodb_clustername: 'cluster0',
         mongodb_database: 'my-blog-dev',
       },
@@ -14,7 +14,7 @@ module.exports = phase => {
   return {
     env: {
       mongodb_username: 'atanasoskabrankica1',
-      mongodb_password: 'eIZfBYIhZvljS0IX',
+      mongodb_password: 'kEv4a6e9oxR3dZEu',
       mongodb_clustername: 'cluster0',
       mongodb_database: 'my-blog',
     },
